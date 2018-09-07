@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "A Node Js RESTful API Tutorial Project (Build Simple Shop API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/humamalamin/simple-shop-api-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Humam Al Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humamalamin/simple-shop-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/humamalamin/simple-shop-api-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
