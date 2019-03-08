@@ -8,6 +8,7 @@ const productRoutes = require('./api/routes/products');
 const ordersRoutes  = require('./api/routes/orders');
 const userRoutes    = require('./api/routes/users');
 
+mongoose.set('useCreateIndex', true);
 mongoose.connect(
     'mongodb://admin:'
     +process.env.MONGO_ATLAS_PW+
